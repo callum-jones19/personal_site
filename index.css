@@ -57,8 +57,14 @@ footer {
 	padding-bottom: 3em;
 }
 
+.projects-col {
+	display: flex;
+	width: 47em;
+	flex-direction: column;
+	gap: 2em;
+}
+
 .text-body {
-	box-sizing: border-box;
 	width: 47em;
 	border-width: 8px;
 	border-style: ridge;
@@ -66,6 +72,19 @@ footer {
 	background-color: #202020;
 	padding: 1.5em;
 	padding-top: 2.5em;
+}
+
+.project-body {
+	width: 47em;
+	border-width: 8px;
+	border-style: ridge;
+	border-color: lightgray;
+	background-color: #202020;
+	padding: 1.5em;
+}
+
+.project-contents {
+
 }
 
 .topheader {
