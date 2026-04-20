@@ -64,9 +64,8 @@ footer {
 	border-style: ridge;
 	border-color: lightgray;
 	background-color: #202020;
-	/* animation: border-spin 10s infinite; */
 	padding: 1.5em;
-	padding-top: 1.7em;
+	padding-top: 2.5em;
 }
 
 .topheader {
@@ -129,7 +128,7 @@ footer {
 .current-page-sign {
 	position: absolute;
 	bottom: 0px;
-	left: 0px;
+	left: -20px;
 	transform: rotate(-15deg);
 	height: 3.5em;
 	width: 3.5em;
@@ -145,5 +144,54 @@ footer {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+}
+
+@media (max-width: 760px) {
+	.left-container {
+		width: 95%;
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+		justify-content: center;
+	}
+
+	.margin-button {
+		background-color: #202020;
+		color: white;
+		padding: 0.3em;
+		padding-left: 2em;
+		padding-right: 2em;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		cursor: default;
+		border-width: 4px;
+		border-style: ridge;
+		border-color: lightgray;
+	}
+
+	.site-container {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1em;
+		padding-top: 3em;
+		padding-bottom: 3em;
+		align-items: center;
+	}
+
+	.text-body {
+		box-sizing: border-box;
+		width: 95%;
+		border-width: 8px;
+		border-style: ridge;
+		border-color: lightgray;
+		background-color: #202020;
+		padding: 1.5em;
+		padding-top: 2.5em;
+	}
 }
 
