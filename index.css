@@ -87,6 +87,14 @@ footer {
 
 }
 
+.project-header {
+	margin-bottom: 0.3em;
+}
+
+.project-contents a {
+	font-weight: normal;
+}
+
 .topheader {
 	background-image: url("./assets/chain.webp");
 	background-repeat: repeat-x;
